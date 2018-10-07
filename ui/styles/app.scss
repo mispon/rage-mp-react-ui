@@ -1,0 +1,33 @@
+.app {
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        padding-top: 2vh;
+    }
+    .message {       
+        text-align: center;
+        font-size: 2vw;
+        padding-top: 2vh;
+    }
+    .current-time {
+        display: block;
+        position: absolute;
+        right: 1vw;
+        bottom: 0;
+    }
+    .send-button {
+        display: block;
+        width: 100px;
+        height: 50px;
+        margin: 15% auto;
+        outline: none;
+    }
+    position: relative;
+    width: 30%;
+    height: 40vh;
+    margin: 20vh auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    background-color: black;
+    color: white;
+}
