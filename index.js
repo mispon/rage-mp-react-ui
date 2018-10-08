@@ -4,7 +4,7 @@ mp.events.add('guiReady', () => {
     browser = mp.browsers.new('package://ui/index.html')
 })
 
-// Handle event from server end send data to react app
+// Handle event from server and send data to react app
 mp.events.add('onMessageFromServer', (value) => {
     browser.execute(`trigger('onMessage', '${value}')`)
 })
