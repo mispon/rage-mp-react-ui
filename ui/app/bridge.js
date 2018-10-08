@@ -21,8 +21,6 @@ var EventManager = {
 
 // Handle events from client
 function trigger(eventName, args) {
-    mp.trigger('showUrl', 'pidor1');
     var handlers = EventManager.events[eventName];
-    mp.trigger('showUrl', '' + handlers.length);
     handlers.forEach(handler => handler(JSON.parse(args)));
 }
