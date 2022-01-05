@@ -1,4 +1,4 @@
-// Global variable for describe on events from react components
+// Global variable for subscribe on events from react components
 var EventManager = {
     events: {},
     
